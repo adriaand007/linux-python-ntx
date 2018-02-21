@@ -4,7 +4,7 @@ Scripts for reporting on Nutanix (Linux python)
 ## setup Nutanix API Credentials with encryption
 ntx_creds.py
 
-`
+``` 
 $ python ntx_creds.py -h
 usage: ntx_creds.py [-h] [-f FILENAME] [-i IPADDR] [-u USERNAME]
                     [-s SYSTEMNAME] [-D] [-w] [-W] [-U SUUID] [-r] [-R]
@@ -28,4 +28,4 @@ optional arguments:
   -r, --read            Read and Print Authentication data to config file
                         (default: False)
   -R, --decread
-`
+```
